@@ -1,4 +1,4 @@
-.Tarea-contenedor{
+.tarea-contenedor{
   width: 500px;
   min-height: 65px;
   background-color: #1b1b32;
@@ -29,4 +29,11 @@
   width: 25px;
   height: 25px;
   margin: 5px;  
+}
+
+/* Tarea completada */
+
+.tarea-contenedor.completada {
+  background-color: #5a01a7;
+  text-decoration: line-through;
 }

@@ -22,6 +22,8 @@ function ListaDeTareas() {
         {
           tareas.map((tarea) =>
             <Tarea
+              Key={tarea.id}
+              id={tarea.id}
               texto={ tarea.texto }
               completadas={ tarea.completadas }
             />
